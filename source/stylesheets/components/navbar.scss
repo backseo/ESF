@@ -1,33 +1,31 @@
 /* Main class */
-.navbar-hoo {
-  position: fixed;
+.navbar-esf {
   width: 100%;
-  top: 0;
   display: flex;
   justify-content: space-around;
   align-items: center;
   box-shadow: 1px 1px 4px 1px rgba(0,0,0,0.7);
-  background: #000;
-  color: #f28e37;
+  background: #244A90;
+  color: white;
   height: 90px;
   z-index: 10;
   transition: all 0.3s ease;
 }
 
-.navbar-hoo span {
+.navbar-esf span {
   margin-left: 30px;
   font-size: 3rem;
   line-height: 35px;
-  color: #f28e37;
+  color: white;
   transition: all ease-in-out 600ms;
 }
 
-.navbar-hoo a:hover {
+.navbar-esf a:hover {
   text-decoration: none
 }
 
 /* Navbar right section (with form, links, button) */
-.navbar-hoo-right {
+.navbar-esf-right {
   border-radius: 2px;
   background: transparent;
   padding: 0px 10px;
@@ -35,25 +33,25 @@
   margin: 0 auto;
 }
 
-.navbar-hoo-right a {
+.navbar-esf-right a {
   white-space: nowrap;
 }
 
 /* Navbar item */
-.navbar-hoo-item {
+.navbar-esf-item {
   cursor: pointer;
   padding: 0 16px;
 }
 
 /* Navbar standard link */
-.navbar-hoo-link {
-  color: #f28e37;
+.navbar-esf-link {
+  color: white;
   font-size: 2rem;
-  background-color: #111;
+  background-color: transparent;
   border-radius: 2px;
 }
 
-.navbar-hoo-link:hover {
+.navbar-esf-link:hover {
   color: #fff;
   text-decoration: none;
   background-color: #333;
@@ -66,13 +64,13 @@
 }
 
 /* Navbar dropdown menu */
-.navbar-hoo-dropdown-menu {
+.navbar-esf-dropdown-menu {
   margin-top: 15px;
   box-shadow: 1px 1px 4px #E6E6E6;
   border-color: #E6E6E6;
   background-color: #222;
 }
-.navbar-hoo-dropdown-menu li > a {
+.navbar-esf-dropdown-menu li > a {
   font-weight: lighter !important;
   color: #fff !important;
   font-size: 16px !important;
@@ -81,11 +79,11 @@
   transition: all 0.3s ease;
   text-align: center;
 }
-.navbar-hoo-dropdown-menu li > a:hover {
+.navbar-esf-dropdown-menu li > a:hover {
   background: #eee !important;
   color: black !important;
 }
-.navbar-hoo-dropdown-menu:before {
+.navbar-esf-dropdown-menu:before {
   content: ' ';
   height: 10px;
   width: 10px;
@@ -99,7 +97,7 @@
 }
 
 @media only screen and (max-width: 920px) {
-  .navbar-hoo span {
+  .navbar-esf span {
     font-size: 2rem;
     line-height: 35px;
     color: $orange;
