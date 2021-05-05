@@ -2,7 +2,7 @@
   width: 100%;
   padding-top: 100px;
   background: $blackopak-bg;
-  height: 120vh;
+  height: 40vh;
 }
 
 .banner h1 {
@@ -13,26 +13,10 @@
   font-size: 3rem;
 }
 
-.banner img {
-  border: 4px #000 solid;
-  margin: 10px 0px;
-}
-
 @media only screen and (max-width: 920px) {
- .banner {
-  color: white;
-  padding-top: 70px;
-  }
 
-  .banner h1 {
-    padding-bottom: 20px;
-    font-size: 25px;
-    transform: scale(1);
-  }
 }
 
 @media only screen and (max-width: 920px) and (orientation: landscape) {
-  .flexbox img {
-    display: none;
-  }
+
 }
