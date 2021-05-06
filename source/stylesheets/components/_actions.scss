@@ -47,7 +47,7 @@
 }
 
 .esf-imgbox:hover .esf-img {
-  opacity: 0.3;
+  opacity: 0.4;
 }
 
 .esf-imgbox:hover .middle {
@@ -55,17 +55,18 @@
 }
 
 .texte {
-  background-color: #04AA6D;
-  color: white;
-  font-size: 16px;
+  border-radius: 4px;
+  background-color: white;
+  color: black;
+  font-size: 30px;
   padding: 16px 32px;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
   .esf-column {
-    flex: 50%;
-    max-width: 50%;
+    flex: 33%;
+    max-width: 33%;
   }
 }
 
