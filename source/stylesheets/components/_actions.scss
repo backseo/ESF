@@ -1,0 +1,40 @@
+// la class actionsbar est utilisé dans le footer également
+.actionsbar {
+  padding-top: 8px;
+  height: 90px;
+  background: $blue;
+  text-align: center;
+  color: white;
+}
+
+.esf-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create four equal columns that sits next to each other */
+.esf-column {
+  flex: 33%;
+  max-width: 33%;
+}
+
+.esf-column img {
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .esf-column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .esf-column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
