@@ -5,7 +5,7 @@
   justify-content: space-around;
   align-items: center;
   box-shadow: 1px 1px 4px 1px rgba(0,0,0,0.7);
-  background: #244A90;
+  background: $nav-bg;
   color: white;
   height: 90px;
   z-index: 10;
@@ -80,8 +80,8 @@
   text-align: center;
 }
 .navbar-esf-dropdown-menu li > a:hover {
-  background: #eee !important;
-  color: black !important;
+  background: $blue !important;
+  color: white !important;
 }
 .navbar-esf-dropdown-menu:before {
   content: ' ';

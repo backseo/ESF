@@ -2,19 +2,19 @@
  * Fonts
  * ------------------------------------- */
 // Google fonts
-@import url('https://fonts.googleapis.com/css?family=Jomolhari|roboto&display=swap');
-$base-font: "Jomolhari", "Helvetica", "sans-serif";
-$header-font: "roboto", "Helvetica", "sans-serif";
+// @import url('https://fonts.googleapis.com/css?family=Jomolhari|roboto&display=swap');
+ $base-font: "BriemScriptStd-Regular", "Helvetica", "sans-serif";
+ $header-font: "BriemScriptStd-Regular", "Helvetica", "sans-serif";
 
 // Local fonts (uncomment following lines)
-// @font-face {
-//   font-family: "Font Name";
-//   src: font-url('FontFile.eot');
-//   src: font-url('FontFile.eot?#iefix') format('embedded-opentype'),
-//        font-url('FontFile.woff') format('woff'),
-//        font-url('FontFile.ttf') format('truetype')
-// }
-// $my-font: "Font Name";
+@font-face {
+  font-family: "BriemScriptStd-Regular";
+  src: font-url('BriemScriptStd-Regular.otf');
+  // src: font-url('FontFile.eot?#iefix') format('embedded-opentype'),
+  //      font-url('FontFile.woff') format('woff'),
+  //      font-url('FontFile.ttf') format('truetype')
+}
+// $my-font: "BriemScriptStd-Regular";
 // Font-size and line-height
 $base-size: 16px;
 $base-height: 1.4;
@@ -24,7 +24,7 @@ $base-height: 1.4;
  * ------------------------------------- */
 // Scheme
 $body-bg:   white;
-$nav-bg:    #000;
+$nav-bg: linear-gradient(0.25turn, #142F5F, #27509B);;
 $footer-bg: #6A0702;
 $text-bg: #333;
 $blackopak-bg: rgba(0,0,0,0.5);

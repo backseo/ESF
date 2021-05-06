@@ -2,7 +2,7 @@
 .actionsbar {
   padding-top: 8px;
   height: 90px;
-  background: $blue;
+  background: $nav-bg;
   text-align: center;
   color: white;
 }
@@ -33,6 +33,7 @@
 
 .esf-imgbox {
   position: relative;
+  cursor: pointer;
 }
 
 .middle {
@@ -59,6 +60,7 @@
   background-color: white;
   color: black;
   font-size: 30px;
+  font-weight: bolder;
   padding: 16px 32px;
 }
 
