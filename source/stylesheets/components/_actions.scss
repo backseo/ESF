@@ -1,11 +1,14 @@
 // la class actionsbar est utilisé dans le footer également
 .actionsbar {
-  padding-top: 8px;
-  height: 90px;
-  background: linear-gradient(0.25turn, #142F5F, #27509B);
+  padding-top: 10px;
+  position: relative;
   text-align: center;
+  height: 60px;
+  background: linear-gradient(0.25turn, #142F5F, #27509B);
   color: white;
 }
+
+
 
 .esf-row {
   display: flex;

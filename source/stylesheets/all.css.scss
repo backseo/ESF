@@ -9,7 +9,13 @@
 @import "font-awesome";
 
 // Our CSS
-@import "layout/*";
-@import "components/*";
+
+@import "components/actions";
+@import "components/videobox";
+@import "components/footer";
+@import "components/caroussel";
+@import "components/navbar2";
+@import "components/tab2";
+
 @import "pages/*";
 @import "vendor/*";

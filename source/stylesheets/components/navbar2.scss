@@ -1,0 +1,78 @@
+/* Main navbar */
+.navbar-name {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  z-index: 100;
+  background: linear-gradient(0.25turn, #142F5F, #27509B);
+  height: 50px;
+  width: 100vw;
+  box-shadow: 1px 1px 2px 1px rgba(0,0,0, 0.5);
+  transition: all ease-in-out 700ms;
+}
+
+/* Logo */
+.navbar-name-brand img {
+  margin-left: 4px;
+  transition: all ease-in-out 700ms;
+  height: 46px;
+  border-radius: 4px;
+}
+
+/* User Avatar */
+.navbar-name .avatar {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+/* Navbar link */
+.navbar-name-link {
+  color: #616668;
+  font-size: 14px;
+}
+.navbar-name-link:hover {
+  color: #da552f;
+  text-decoration: none;
+}
+
+/* Dropdown menu */
+.navbar-name-dropdown-menu {
+  box-shadow: 1px 1px 4px #E6E6E6;
+  border-color: #E6E6E6;
+  background: linear-gradient(0.25turn, #142F5F, #27509B);
+}
+.navbar-name-dropdown-menu li > a {
+  transition: color 0.3s ease;
+  font-weight: lighter !important;
+  color: $gray !important;
+  font-size: 15px !important;
+  padding: 10px 20px;
+}
+.navbar-name-dropdown-menu li > a:hover {
+  background: red !important;
+  color: white !important;
+}
+.navbar-name-dropdown-menu:before {
+  content: ' ';
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  right: 0px;
+  top: -6px;
+  background-color: white;
+  transform: rotate(45deg);
+}
+
+@media only screen and (max-width: 1100px) {
+
+}
+
+@media only screen and (max-width: 720px) {
+
+}
+
+

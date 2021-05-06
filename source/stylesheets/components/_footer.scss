@@ -43,6 +43,14 @@
   transition: all ease-in-out 100ms;
 }
 
+.gafa-icon {
+  height: 20px;
+}
+.gafa-icon:hover {
+  transform: scale(1.2);
+}
+
+
 @media only screen and (max-width: 960px) {
   .footer-menu {
     margin-left: 0px;

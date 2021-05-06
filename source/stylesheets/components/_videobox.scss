@@ -1,15 +1,16 @@
-.banner {
+.videobox{
   width: 100%;
   padding-top: 100px;
   background: rgba(0,0,0,0.5);
   height: 60vh;
 }
 
-.banner h1 {
+.videobox h1 {
   padding-top: 90px;
   color: white;
   padding-bottom: 80px;
   font-size: 3rem;
+  text-align: center;
 }
 
 @media only screen and (max-width: 920px) {
