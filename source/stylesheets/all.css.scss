@@ -17,5 +17,20 @@
 @import "components/navbar2";
 @import "components/tab2";
 
-@import "pages/*";
+@import "pages/contact";
+@import "pages/home";
+
 @import "vendor/*";
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  width: 100%;
+  min-width: 100%;
+  margin: 0;
+}
