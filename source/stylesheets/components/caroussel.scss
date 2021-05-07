@@ -1,8 +1,17 @@
-h3 {
-  color: #244A90;
-  text-align: center;
+.slideshow {
+   width: 300px*11;
+   height: 150px;
+   overflow: hidden;
+   border: 3px solid #F2F2F2;
 }
 
-.caroussel {
-  height: 14vh;
+.slideshow ul {
+    /* 11 images donc 11 x 100% */
+   width: 1100%;
+   height: 150px;
+   padding:0; margin:0;
+   list-style: none;
+}
+.slideshow li {
+   float: left;
 }

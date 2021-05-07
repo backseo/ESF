@@ -37,11 +37,12 @@
 .esf-imgbox {
   position: relative;
   cursor: pointer;
+  overflow: hidden;
+  transform-orign: center;
 }
 
 .middle {
-  transition: .5s ease;
-  opacity: 0;
+  opacity: 0.9;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -52,6 +53,7 @@
 
 .esf-imgbox:hover .esf-img {
   opacity: 0.4;
+  transform: scale(1.2);
 }
 
 .esf-imgbox:hover .middle {
@@ -62,9 +64,9 @@
   border-radius: 4px;
   background-color: white;
   color: black;
-  font-size: 30px;
+  font-size: 24px;
   font-weight: bolder;
-  padding: 16px 32px;
+  padding: 12px 26px;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
