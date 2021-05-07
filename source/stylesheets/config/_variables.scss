@@ -2,8 +2,8 @@
  * Fonts
  * ------------------------------------- */
 // Google fonts
-// @import url('https://fonts.googleapis.com/css?family=Jomolhari|roboto&display=swap');
- $base-font: "BriemScriptStd-Regular", "Helvetica", "sans-serif";
+ @import url('https://fonts.googleapis.com/css?family=Jomolhari|roboto&display=swap');
+ $base-font: "Jomolhari", "Helvetica", "sans-serif";
  $header-font: "BriemScriptStd-Regular", "Helvetica", "sans-serif";
 
 // Local fonts (uncomment following lines)

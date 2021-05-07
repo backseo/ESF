@@ -1,0 +1,100 @@
+.bandbox {
+  position: relative;
+  overflow: hidden;
+  transform-origin: center;
+}
+
+.band-title {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+  font-size: 8rem;
+  background: linear-gradient(0.25turn, #142F5F, #27509B);
+  border-radius: 4px;
+  padding: 10px 20px;
+  opacity: 0.9;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+  min-height: 80px;
+  margin: 0;
+  padding: 0;
+}
+
+.DescMainBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 3px black solid;
+  padding-top: 4px;
+}
+
+.DescLeft {
+  width: 100%;
+  border: 3px purple solid;
+}
+
+.DescLeft h2 {
+  color: white;
+  background: linear-gradient(0.25turn, #142F5F, #27509B);
+  width: 80%;
+  padding: 4px 0px 0px 8px;
+  border-radius: 2px;
+}
+
+.DescLeft p {
+  padding: 0px 8px;
+}
+
+.DescRight {
+  width: 100%;
+  text-align: center;
+  border: 3px red solid;
+}
+
+.DescRight-element {
+  margin: 4px 0px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 1px 1px black;
+}
+
+@media screen and (max-width: 991.98px) {
+  .band-title {
+    top: 10%;
+    left: 50%;
+    font-size: 6rem;
+    border-radius: 3px;
+  }
+
+  .DescRight-element {
+    height: auto;
+  }
+
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 767.98px) {
+  .band-title {
+    top: 9%;
+    left: 50%;
+    font-size: 4rem;
+    border-radius: 2px;
+  }
+
+  .DescMainBox {
+  flex-direction: column;
+  }
+
+  .DescRight-element {
+    height: auto;
+  }
+
+}

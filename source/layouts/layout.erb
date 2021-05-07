@@ -8,25 +8,18 @@
     <meta name="author" content="Philippe CAYLA">
     <meta name="description" content="Site d'européns sans frontière">
     <meta name="keywords" content="europe, europeén, européenne">
-
     <!-- Use title if it's in the page YAML frontmatter -->
     <title><%= current_page.data.title || "Européens sans frontière" %></title>
-
     <%= stylesheet_link_tag "all" %>
     <%= javascript_include_tag  "all" %>
-
-
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-
   </head>
 
   <body>
 
     <%= yield %>
     <%= partial "footer" %>
-
-  <script src="https://code.jquery.com/jquery-2.0.2.min.js"></script>
-
+    <script src="https://code.jquery.com/jquery-2.0.2.min.js"></script>
 
   </body>
 </html>
