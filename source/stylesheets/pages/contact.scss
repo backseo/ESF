@@ -1,31 +1,24 @@
 .cdrfbox-contact {
   position: relative;
   display: block;
-  margin: 0 auto;
+  margin: 10px auto;
   width: 90%;
   min-height: 400px;
   padding: 4px;
   border-radius: 4px;
-  // background: url(../images/main-bg2.jpg);
-  // background-size: cover;
-  // background-position: 20% 80%;
-  background-color: #222;
+  background: linear-gradient(0.25turn, #142F5F, #27509B);
 }
 
 .action {
   position: relative;
   text-align: center;
-  color: #f28e37;
+  color: white;
   padding: 2px 0px;
   width: 70%;
   margin: 4px auto;
   border-radius: 4px;
   background: rgba(#222, 0.8);
-  font-size: 12px;
-}
-
-.action p {
-  font-family: Roboto;
+  font-size: 14px;
 }
 
 .stylised {
@@ -55,9 +48,14 @@
 
 
 #contact-btn {
-  color: #000;
+  color: white;
+  border: 1px white solid;
 }
 
 #contact-btn:hover {
-  color: #fff;
+  color: black;
+  border: 1px white solid;
+  transition: .5s ease;
 }
+
+
