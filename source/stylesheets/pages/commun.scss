@@ -12,7 +12,6 @@
   -ms-transform: translate(-50%, -50%);
   text-align: center;
   color: white;
-  font-weight: bolder;
   font-size: 6rem;
   background: linear-gradient(0.25turn, #142F5F, #27509B);
   border-radius: 4px;
@@ -54,6 +53,7 @@
 
 .DescLeft p {
   margin: 0px 60px;
+  font-size: 18px;
 }
 
 .DescRight {
@@ -62,8 +62,29 @@
 }
 
 .DescRight-element {
-  margin: 4px 0px;
+  margin:22px 0px 0px 0px;
   border-radius: 4px;
+}
+
+.whitebox {
+  background: white;
+  border-radius: 4px;
+  padding: 4px 0px 20px 0px;
+}
+
+.whitebox h3 {
+  color: white;
+  background: linear-gradient(0.25turn, #142F5F, #27509B);
+  text-align: center;
+  padding: 10px 0px 8px 0px;
+}
+
+.esflexbox {
+  display: flex;
+  align-content: space-around;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 @media screen and (max-width: 991.98px) {
@@ -88,7 +109,7 @@
 
   .DescLeft p {
     margin: 0px 30px;
-    font-size: 18px;
+    font-size: 16px;
   }
 
 }
@@ -117,7 +138,7 @@
   }
 
   .DescLeft p {
-    font-size: 16px;
+    font-size: 15px;
   }
 
 }
