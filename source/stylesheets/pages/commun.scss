@@ -13,7 +13,7 @@
   text-align: center;
   color: white;
   font-weight: bolder;
-  font-size: 8rem;
+  font-size: 6rem;
   background: linear-gradient(0.25turn, #142F5F, #27509B);
   border-radius: 4px;
   padding: 10px 20px;
@@ -31,51 +31,64 @@
 .DescMainBox {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  border: 3px black solid;
   padding-top: 4px;
+  background: white;
+  border-radius: 4px;
+  margin-bottom: 10px;
 }
 
 .DescLeft {
   width: 100%;
-  border: 3px purple solid;
+  text-align: left;
+  padding-right: 30px;
 }
 
 .DescLeft h2 {
   color: white;
   background: linear-gradient(0.25turn, #142F5F, #27509B);
-  width: 80%;
-  padding: 4px 0px 0px 8px;
+  width: 70%;
   border-radius: 2px;
+  font-size: 2.8rem;
+  padding: 10px 0px 10px 10px;
 }
 
 .DescLeft p {
-  padding: 0px 8px;
+  margin: 0px 60px;
 }
 
 .DescRight {
-  width: 100%;
   text-align: center;
-  border: 3px red solid;
+  width: 100%;
 }
 
 .DescRight-element {
   margin: 4px 0px;
   border-radius: 4px;
-  box-shadow: 1px 1px 1px 1px black;
 }
 
 @media screen and (max-width: 991.98px) {
   .band-title {
     top: 10%;
     left: 50%;
-    font-size: 6rem;
-    border-radius: 3px;
+    font-size: 5rem;
   }
 
   .DescRight-element {
     height: auto;
+  }
+
+  .DescLeft h2 {
+    font-size: 2.4rem;
+    padding: 8px 20px 12px 14px;
+  }
+
+  .DescLeft {
+    padding-right: 0px;
+  }
+
+  .DescLeft p {
+    margin: 0px 30px;
+    font-size: 18px;
   }
 
 }
@@ -95,6 +108,16 @@
 
   .DescRight-element {
     height: auto;
+  }
+
+  .DescLeft h2 {
+    font-size: 2.3rem;
+    padding: 10px 0px 10px 10px;
+    border: 1px green solid;
+  }
+
+  .DescLeft p {
+    font-size: 16px;
   }
 
 }
