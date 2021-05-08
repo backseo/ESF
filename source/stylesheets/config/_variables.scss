@@ -3,7 +3,7 @@
  * ------------------------------------- */
 // Google fonts
  @import url('https://fonts.googleapis.com/css?family=Jomolhari|roboto&display=swap');
- $base-font: "Jomolhari", "Helvetica", "sans-serif";
+ $base-font: "roboto", "Helvetica", "sans-serif";
  $header-font: "BriemScriptStd-Regular", "Helvetica", "sans-serif";
 
 // Local fonts (uncomment following lines)
@@ -23,7 +23,7 @@ $base-height: 1.4;
  * Colors
  * ------------------------------------- */
 // Scheme
-$body-bg:   white;
+$body-bg:   red;
 $nav-bg: linear-gradient(0.25turn, #142F5F, #27509B);
 $footer-bg: #6A0702;
 $text-bg: #333;

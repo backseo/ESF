@@ -1,22 +1,26 @@
 .bandbox {
-  position: relative;
+  width: 100%;
+  height: 231px;
   overflow: hidden;
-  transform-origin: center;
+  background-image: url(../images/Brexit-band.jpg);
+  background-size: cover;
+  background-origin: center;
+  transition: ease 300ms;
 }
 
 .band-title {
-  position: absolute;
-  top: 15%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+  transform-origin: center;
+  position: relative;
+  margin: 0 auto;
   text-align: center;
   color: white;
-  font-size: 6rem;
   background: linear-gradient(0.25turn, #142F5F, #27509B);
   border-radius: 4px;
   padding: 10px 20px;
   opacity: 0.9;
+  width: 700px;
+  top: 80px;
+  transition: ease 300ms;
 }
 
 .responsive {
@@ -59,6 +63,7 @@
 .DescRight {
   text-align: center;
   width: 100%;
+  padding-bottom: 10px;
 }
 
 .DescRight-element {
@@ -91,11 +96,17 @@
   font-size: 14px;
 }
 
+/*format tablettes*/
 @media screen and (max-width: 991.98px) {
+  .bandbox {
+    height: 160px;
+  }
+
   .band-title {
-    top: 10%;
-    left: 50%;
-    font-size: 5rem;
+    font-size: 28px;
+    padding: 10px 18px;
+    width: 500px;
+    top: 55px;
   }
 
   .DescRight-element {
@@ -115,16 +126,22 @@
     margin: 0px 30px;
     font-size: 16px;
   }
-
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+/* Format yéléphone */
 @media screen and (max-width: 767.98px) {
+  .bandbox {
+    height: 110px;
+  }
+
   .band-title {
-    top: 9%;
-    left: 50%;
-    font-size: 4rem;
-    border-radius: 2px;
+    border-radius: 3px;
+    margin: 0 auto;
+    font-size: 24px;
+    padding: 8px 14px;
+    width: 380px;
+    white-space: nowrap;
+    top: 30px;
   }
 
   .DescMainBox {
