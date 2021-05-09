@@ -36,13 +36,12 @@
   position: relative;
   width: 100%;
   padding-right: 30px;
-  border: 1px green solid;
 }
 
 .DescLeft h2 {
   color: white;
   background: linear-gradient(0.25turn, #142F5F, #27509B);
-  width: 70%;
+
   border-radius: 2px;
   font-size: 2.8rem;
   padding: 10px 0px 10px 10px;
@@ -85,10 +84,6 @@
   flex-wrap: wrap;
 }
 
-#pec {
-  font-size: 14px;
-}
-
 .flagflexbox {
   display: flex;
   align-items: center;
@@ -101,7 +96,7 @@
   margin: 0px 60px 0px 0px;
   padding-top: 20px;
   border-radius: 4px;
-  box-shadow: 2px 1px 1px 2px rgba(0,0,0,0.3);
+  box-shadow: 1px 1px 2px 2px rgba(0,0,0,0.3);
 }
 
 .ifMainFbox {
@@ -129,6 +124,24 @@
   width: 90%;
   height: 90%;
   margin: 0 auto;
+  border-radius: 4px;
+}
+
+.card {
+  width: 100%;
+}
+
+.card-title {
+  text-align: center;
+  font-weight: bolder;
+  padding-bottom: 8px;
+}
+
+.ifcontainer2 {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (9/16 = 0.5625) */
 }
 
 /*format tablettes*/
@@ -149,15 +162,15 @@
   }
 
   .DescLeft h2 {
-    font-size: 2.4rem;
+    font-size: 2.2rem;
     padding: 8px 20px 12px 14px;
+    white-space: nowrap;
   }
 
   .DescLeft {
     display: flex;
     flex-direction: column;
     padding-right: 0px;
-    border: 1px red solid;
   }
 
   .DescLeft p {
@@ -168,6 +181,8 @@
   .ifMainFbox {
     flex-wrap: wrap;
   }
+
+
 }
 
 
@@ -199,7 +214,7 @@
   .DescLeft h2 {
     font-size: 2.3rem;
     padding: 10px 0px 10px 10px;
-    border: 1px green solid;
+    white-space: nowrap;
   }
 
   .DescLeft p {
