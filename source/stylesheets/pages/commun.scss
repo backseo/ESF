@@ -137,11 +137,20 @@
   padding-bottom: 8px;
 }
 
-.ifcontainer2 {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  padding-top: 56.25%; /* 16:9 Aspect Ratio (9/16 = 0.5625) */
+.PersonCard {
+  margin: 10px auto;
+  width: 250px;
+  text-align: center;
+}
+
+.PersonCard h4 {
+  font-weight: bolder;
+}
+
+.img-rounded {
+  margin: 4px;
+  height: 150px;
+  border-radius: 50%;
 }
 
 /*format tablettes*/

@@ -3,21 +3,39 @@
  * ------------------------------------- */
 // Google fonts
  @import url('https://fonts.googleapis.com/css?family=Jomolhari|roboto&display=swap');
- $base-font: "roboto", "Helvetica", "sans-serif";
- $header-font: "BriemScriptStd-Regular", "Helvetica", "sans-serif";
+  $base-font: "Jomolhari", "Helvetica", "sans-serif";
+  $header-font: "roboto", "Helvetica", "sans-serif";
 
-// Local fonts (uncomment following lines)
+//Local fonts (uncomment following lines)
 @font-face {
   font-family: "BriemScriptStd-Regular";
-  src: font-url('BriemScriptStd-Regular.otf');
-  // src: font-url('FontFile.eot?#iefix') format('embedded-opentype'),
-  //      font-url('FontFile.woff') format('woff'),
-  //      font-url('FontFile.ttf') format('truetype')
+  src: font-url('fonts/BriemScriptStd-Regular.otf');
+  src: url('fonts/BriemScriptStd-Regular.eot');
+  src: url('fonts/BriemScriptStd-Regular.otf') format('truetype'),
+       url('fonts/BriemScriptStd-Regular.woff') format('woff'),
+       url('fonts/BriemScriptStd-Regular.eot?#iefix') format('embedded-opentype'),
+       url('fonts/BriemScriptStd-Regular.svg#QuadrantaBold') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
-// $my-font: "BriemScriptStd-Regular";
+
+@font-face {
+  font-family: "Metropolis";
+  src: font-url('fonts/Metropolis.otf');
+  src: url('fonts/Metropolis.eot');
+  src: url('fonts/Metropolis.otf') format('truetype'),
+       url('fonts/Metropolis.woff') format('woff'),
+       url('fonts/Metropolis.eot?#iefix') format('embedded-opentype'),
+       url('fonts/Metropolis.svg#QuadrantaBold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
 // Font-size and line-height
-$base-size: 16px;
-$base-height: 1.4;
+$base-size: 14px;
+$base-height: 1.2;
 
 /* -------------------------------------
  * Colors
