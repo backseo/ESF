@@ -7,22 +7,58 @@
   #Breakpoint {
     color: orange;
   }
+/*don't forget to add this too !*/
+
+  #concours {
+    position: relative;
+    top: 0px;
+    left: 80px;
+  }
+
 }
 @media screen and (max-width: 767.98px) {
   #Breakpoint {
     color: green;
   }
+
+
+/*don't forget to add this too !*/
+
+
+
 }
+
 /*Fin Visual breakpoint*/
 
 
 /*En cours de développement*/
 
 
-.font1 {
-  font-family: "kalam";
+#euro-title_blue {
+  color: white;
+  background: linear-gradient(0.25turn, #142F5F, #27509B);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  border-radius: 2px;
+  font-size: 2.8rem;
+  padding: 10px 10px;
+  transition: ease 500ms;
 }
 
-.font2 {
-  font-family: "roboto";
+#union-title_blue {
+  color: white;
+  background: linear-gradient(0.25turn, #142F5F, #27509B);
+  background-size: 70%;
+  background-repeat: no-repeat;
+  border-radius: 2px;
+  font-size: 2.8rem;
+  padding: 10px 10px;
+  transition: ease 500ms;
+}
+
+.horivertalign {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 12px;
 }

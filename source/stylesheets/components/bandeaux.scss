@@ -28,6 +28,16 @@
   transition: ease 300ms;
 }
 
+.bandboxEuro {
+  width: 100%;
+  height: 231px;
+  overflow: hidden;
+  background-image: url(../images/bandeauFake.png);
+  background-size: cover;
+  background-origin: center;
+  transition: ease 300ms;
+}
+
 @media screen and (max-width: 991.98px) {
   .bandboxBrexit {
     height: 150px;
@@ -38,6 +48,10 @@
   }
 
   .bandboxCult {
+    height: 150px;
+  }
+
+  .bandboxEuro {
     height: 150px;
   }
 
@@ -54,6 +68,10 @@
   }
 
    .bandboxCult {
+    height: 120px;
+  }
+
+  .bandboxEuro {
     height: 120px;
   }
 }
