@@ -155,6 +155,35 @@
   border-radius: 50%;
 }
 
+#euro-title_blue {
+  color: white;
+  background: linear-gradient(0.25turn, #142F5F, #27509B);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  border-radius: 2px;
+  font-size: 2.8rem;
+  padding: 10px 10px;
+  transition: ease 500ms;
+}
+
+#union-title_blue {
+  color: white;
+  background: linear-gradient(0.25turn, #142F5F, #27509B);
+  background-size: 70%;
+  background-repeat: no-repeat;
+  border-radius: 2px;
+  font-size: 2.8rem;
+  padding: 10px 10px;
+  transition: ease 500ms;
+}
+
+.horivertalign {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 12px;
+}
+
 /*format tablettes*/
 @media screen and (max-width: 991.98px) {
   .bandbox {
