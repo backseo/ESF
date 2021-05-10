@@ -2,35 +2,9 @@
  * Fonts
  * ------------------------------------- */
 // Google fonts
- @import url('https://fonts.googleapis.com/css?family=Jomolhari|roboto&display=swap');
-  $base-font: "Jomolhari", "Helvetica", "sans-serif";
-  $header-font: "roboto", "Helvetica", "sans-serif";
-
-//Local fonts (uncomment following lines)
-@font-face {
-  font-family: "BriemScriptStd-Regular";
-  src: font-url('fonts/BriemScriptStd-Regular.otf');
-  src: url('fonts/BriemScriptStd-Regular.eot');
-  src: url('fonts/BriemScriptStd-Regular.otf') format('truetype'),
-       url('fonts/BriemScriptStd-Regular.woff') format('woff'),
-       url('fonts/BriemScriptStd-Regular.eot?#iefix') format('embedded-opentype'),
-       url('fonts/BriemScriptStd-Regular.svg#QuadrantaBold') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Metropolis";
-  src: font-url('fonts/Metropolis.otf');
-  src: url('fonts/Metropolis.eot');
-  src: url('fonts/Metropolis.otf') format('truetype'),
-       url('fonts/Metropolis.woff') format('woff'),
-       url('fonts/Metropolis.eot?#iefix') format('embedded-opentype'),
-       url('fonts/Metropolis.svg#QuadrantaBold') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
+  @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&family=Roboto:wght@300&display=swap');
+  $base-font: "Roboto", "Helvetica", "sans-serif";
+  $header-font: 'Merienda', "Helvetica", "sans-serif";
 
 
 // Font-size and line-height
