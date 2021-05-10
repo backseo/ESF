@@ -25,11 +25,11 @@
 
 .DescMainBox {
   display: flex;
-  flex-direction: row;
   padding-top: 4px;
   background: white;
   border-radius: 4px;
   margin-bottom: 10px;
+
 }
 
 .DescLeft {
@@ -79,10 +79,10 @@
 
 .esflexbox {
   display: flex;
-  align-content: space-around;
+  flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 
 .flagflexbox {
@@ -165,7 +165,7 @@
     // padding: 10px 18px;
     // width: 500px;
     transform: scale(0.9);
-    top: 55px;
+    top: 42px;
   }
 
   .DescRight-element {

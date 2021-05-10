@@ -27,3 +27,17 @@
   background-origin: center;
   transition: ease 300ms;
 }
+
+@media screen and (max-width: 991.98px) {
+  .bandboxBrexit {
+    height: 150px;
+  }
+
+}
+
+
+@media screen and (max-width: 767.98px) {
+  .bandboxBrexit {
+    height: 120px;
+  }
+}
