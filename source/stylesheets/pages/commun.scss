@@ -227,6 +227,14 @@
   text-justify: auto;
 }
 
+.onlytexte {
+    padding: 20px 10%;
+    text-justify: auto;
+  }
+
+.onlytexte p {
+  text-align: justify;
+}
 
 /*format tablettes*/
 @media screen and (max-width: 991.98px) {
@@ -266,15 +274,16 @@
   .ifMainFbox {
     flex-wrap: wrap;
   }
-}
 
-.onlytexte {
-  padding: 10px 20px;
-}
+  #multicult {
+    background-size: 100%;
+    font-size: 2.4rem;
+  }
 
-#multicult {
-  background-size: 100%;
-  font-size: 2.4rem;
+    #mig-title_blue {
+    background-size: 100%;
+    font-size: 2.4rem;
+    }
   }
 
 /* Format yéléphone */
@@ -324,7 +333,18 @@
     flex-wrap: wrap;
   }
 
+  .card.card-body p {
+  padding: 10px 10px;
+  text-justify: auto;
+  text-align: justify;
+}
+
   #multicult {
+  background-size: 100%;
+  font-size: 1.6rem;
+  }
+
+  #mig-title_blue {
   background-size: 100%;
   font-size: 1.6rem;
   }
