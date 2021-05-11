@@ -8,7 +8,7 @@
 
 
 // Font-size and line-height
-$base-size: 14px;
+$base-size: 16px;
 $base-height: 1.2;
 
 /* -------------------------------------
@@ -35,5 +35,6 @@ $gray:         lighten(#000, 33.5%); // #555
 $gray-light:   lighten(#000, 46.7%); // #777
 $gray-lighter: lighten(#000, 93.5%); // #eee
 
-
-
+*.card {
+  border: none !important;
+}
