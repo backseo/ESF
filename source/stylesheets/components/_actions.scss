@@ -1,11 +1,13 @@
 // la class actionsbar est utilisé dans le footer également
 .actionsbar {
-  padding-top: 10px;
+  padding: 10px 0px 8px 0px;
   position: relative;
   text-align: center;
   height: 60px;
   background: linear-gradient(0.25turn, #142F5F, #27509B);
+  width: 100%;
   color: white;
+  font-size: 4rem;
   transition: ease-in-out 300ms;
 }
 
@@ -87,8 +89,5 @@
     max-width: 100%;
   }
 
-  .actionsbar {
-    font-size: 30px;
-    line-height: 4rem;
-  }
+
 }
