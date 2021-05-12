@@ -18,8 +18,12 @@
 @import "components/navbar2";
 @import "components/tab2";
 
+@import "layout/breakpoint";
+
 @import "pages/commun";
 @import "pages/contact";
+@import "pages/equipe";
+
 @import "pages/tests";
 
 @import "vendor/*";
@@ -38,12 +42,6 @@ body {
   background: linear-gradient(rgba(150, 150, 150, 0.8), rgba(36, 74, 144, 0.3));
 }
 
-p {
-  font-size: 16px;
-}
-
-strong {
-  color: #244A90;
-}
-
+/*Attention*/
+/* La classe DescLeft h2 et DescLeft h3 servent pour les titres de section encadrés en bleu */
 

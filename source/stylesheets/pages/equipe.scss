@@ -1,0 +1,91 @@
+.equip-main-frame {
+  position: relative;
+  width: 100%;
+}
+
+.equipe-layout img {
+  margin: 10px 10px;
+  border-radius: 2px;
+}
+
+.equipe-layout {
+  text-align: justify;
+  text-justify: auto;
+  margin: 20px 90px;
+  padding: 20px 20px;
+  font-size: 16px;
+  letter-spacing: -0.5px;
+  word-spacing: -1px;
+}
+
+.equipe-layout p {
+  text-indent: 2em;
+}
+
+.equipe-layout p::first-letter {
+  font-size: 120%;
+  }
+
+.equipe-layout strong {
+  color: #5264AE;
+  font-weight: bolder;
+}
+
+.bleu {
+  color: #5264AE;
+  font-weight: bolder;
+  font-size: 1.6rem;
+}
+
+.bleu-fonce {
+  color: #2B366F;
+  font-weight: bolder;
+  font-size: 1.6rem;
+}
+
+#euroflag {
+  position: relative;
+  bottom: 14px;
+}
+
+
+@media screen and (max-width: 991.98px) {
+
+  .equipe-layout {
+    margin: 20px 10px;
+  }
+
+
+  .equipe-layout p {
+    font-size: 15px;
+  }
+
+   .equipe-layout h4 {
+    font-size: 16px;
+  }
+
+  .portraits {
+    padding-right: 20px;
+  }
+
+}
+
+@media screen and (max-width: 767.98px) {
+
+  .equipe-layout {
+    margin: 20px 20px;
+  }
+
+  .equipe-layout p {
+    font-size: 14px;
+  }
+
+   .equipe-layout h4 {
+    font-size: 14px;
+  }
+
+  .portraits {
+    transform: scale(1);
+  }
+
+}
