@@ -1,15 +1,21 @@
-.videobox{
-  width: 100%;
-  padding-top: 100px;
-  background: rgba(0,0,0,0.5);
-  height: 60vh;
-}
-
-.videobox h1 {
-  padding-top: 90px;
+.banner {
   color: white;
-  padding-bottom: 80px;
-  font-size: 3rem;
   text-align: center;
-  font-family: Roboto;
+  height: 75vh;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-image: url('../images/bandeau_europe.jpg');
+  background-size: cover !important;
+  background-repeat: no-repeat;
+  background-origin: center;
+  background-position: center;
+  filter: blur(1px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner h2 {
+  font-size: 30px;
+  font-weight: bold;
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+  z-index: 0;
 }

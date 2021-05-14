@@ -1,43 +1,18 @@
 .footer-cadre {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
+  margin: 0 auto;
   background: white;
-  font-size: 1.7rem;
+  padding: 4px 0px;
+  max-width: 60%;
+  min-width: 500px;
 }
 
-.footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: transparent;
-  padding-top: 5px;
-  width: 50%;
-}
-
-.footer-menu {
-  flex: 1 0 auto;
-  width: 100%;
-  // border: 1px purple solid;
-  color: #244A90;
-  padding-bottom: 10px;
-  background: transparent;
-  margin-left: 60px;
-}
-
-.footer-menu ul li {
-  // border: 1px blue solid;
-  min-width: 156px;
-}
-
-.footer-menu ul li a {
+.footer-cadre ul li a {
   color: black;
   font-size: 1.2rem;
   text-decoration: none;
 }
 
-.footer-menu ul li a:hover {
+.footer-cadre ul li a:hover {
   color: #da552f;
   cursor: pointer;
   text-decoration: none;
@@ -49,23 +24,4 @@
 }
 .gafa-icon:hover {
   transform: scale(1.2);
-}
-
-
-@media only screen and (max-width: 991.98px) {
-  .footer-menu {
-    margin-left: 0px;
-  }
-  .footer-menu ul {
-    text-align: left;
-  }
-}
-
-@media only screen and (max-width: 767.98px) {
-  .footer-menu {
-    margin-left: 30px;
-  }
-  .title p {
-  line-height: 16px;
-  }
 }

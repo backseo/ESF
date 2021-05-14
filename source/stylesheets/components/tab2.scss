@@ -5,20 +5,21 @@
 
 .tabs-item {
   text-align: center;
-  padding-right: 70px;
+  padding: 0px 26px;
   font-size: 2rem;
   color: white;
   cursor: pointer;
   opacity: 0.9;
   transition: all ease-in-out 500ms;
   font-family: "Roboto";
-  font-weight: bolder;
+  font-size: 16px;
 }
 
 .tabs-item span {
   line-height: 2rem;
   min-width: 200px;
   font-weight: bolder;
+  white-space: nowrap;
 }
 
 .tabs-item:hover {

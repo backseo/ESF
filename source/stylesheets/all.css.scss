@@ -15,16 +15,19 @@
 @import "components/videobox";
 @import "components/bandeaux";
 @import "components/caroussel";
+@import "components/ekip-side-menu";
+@import "components/enconstr";
 @import "components/navbar2";
 @import "components/tab2";
 
 @import "layout/breakpoint";
 
+@import "pages/blue-titles";
 @import "pages/commun";
 @import "pages/contact";
 @import "pages/equipe";
 
-@import "pages/tests";
+// @import "pages/tests";
 
 @import "vendor/*";
 

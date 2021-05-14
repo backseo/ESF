@@ -1,3 +1,26 @@
+#buroesf {
+  color: white;
+  background: linear-gradient(0.25turn, #142F5F, #27509B);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-radius: 2px;
+  font-size: 3rem;
+  padding: 10px 10px;
+  transition: ease 500ms;
+}
+
+/* id de la page association (sans feuille de style) */
+#assoesf {
+  color: white;
+  background: linear-gradient(0.25turn, #142F5F, #27509B);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-radius: 2px;
+  font-size: 3rem;
+  padding: 10px 10px;
+  transition: ease 500ms;
+}
+
 .equip-main-frame {
   position: relative;
   width: 100%;
@@ -50,11 +73,9 @@
 
 
 @media screen and (max-width: 991.98px) {
-
   .equipe-layout {
     margin: 20px 10px;
   }
-
 
   .equipe-layout p {
     font-size: 15px;
@@ -67,11 +88,9 @@
   .portraits {
     padding-right: 20px;
   }
-
 }
 
 @media screen and (max-width: 767.98px) {
-
   .equipe-layout {
     margin: 20px 20px;
   }
@@ -87,5 +106,4 @@
   .portraits {
     transform: scale(1);
   }
-
 }

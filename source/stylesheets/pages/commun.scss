@@ -12,7 +12,7 @@
   opacity: 0.9;
   width: 450px;
   top: 80px;
-  transform: scale(1.5);
+  transform: scale(1.2);
   transition: ease 300ms;
   border: 2px white solid;
   box-shadow: 0px 1px 1px 1px black;
@@ -32,11 +32,14 @@
   background: white;
   border-radius: 4px;
   margin-bottom: 10px;
+  border: 2px olive solid;
 }
 
 .DescLeft {
   position: relative;
   width: 100%;
+  border: 2px purple solid;
+  margin: 4px;
 }
 
 .textcenterbox {
@@ -46,27 +49,23 @@
   margin: 4px 4px;
   border-radius: 2px;
   font-size: 14px;
+  border: 1px black solid;
 }
 
 .textjustifybox {
-  padding: 10px 40px;
   width: 100%;
   margin: 4px 4px;
   border-radius: 2px;
   font-size: 14px;
+  border: 1px black dotted;
 }
 
-.DescLeft h2 {
-  color: white;
-  background: linear-gradient(0.25turn, #142F5F, #27509B);
-  border-radius: 2px;
-  font-size: 2.8rem;
-  padding: 10px 0px 10px 10px;
-}
 
 .DescRight {
   position: relative;
   width: 100%;
+  border: 2px red solid;
+  margin: 4px;
 }
 
 .DescRight-element {
@@ -79,32 +78,27 @@
   padding: 4px 0px 20px 0px;
 }
 
-.whitebox h3 {
-  color: white;
-  background: linear-gradient(0.25turn, #142F5F, #27509B);
-  text-align: center;
-  padding: 10px 0px 8px 0px;
-}
-
 .esflexbox {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
   flex-wrap: nowrap;
+  border: 2px teal solid;
 }
 
 .flagflexbox {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0px 40px;
 }
 
 .flagbg {
   background-color: #a9a9a9;
-  margin: 0px 60px 0px 0px;
-  padding-top: 20px;
+  padding: 20px 30px 0px 30px;
+  text-align: center;
+  max-width: 80%;
   border-radius: 4px;
   box-shadow: 1px 1px 2px 2px rgba(0,0,0,0.3);
 }
@@ -168,78 +162,22 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
+  border: 2px blue solid;
 }
-
-#euro-title_blue {
-  color: white;
-  background: linear-gradient(0.25turn, #142F5F, #27509B);
-  background-size: 30%;
-  background-repeat: no-repeat;
-  border-radius: 2px;
-  font-size: 2.8rem;
-  padding: 10px 10px;
-  transition: ease 500ms;
-}
-
-#union-title_blue {
-  color: white;
-  background: linear-gradient(0.25turn, #142F5F, #27509B);
-  background-size: 40%;
-  background-repeat: no-repeat;
-  border-radius: 2px;
-  font-size: 2.8rem;
-  padding: 10px 10px;
-  transition: ease 500ms;
-}
-
-#mig-title_blue {
-  color: white;
-  background: linear-gradient(0.25turn, #142F5F, #27509B);
-  background-size: 80%;
-  background-repeat: no-repeat;
-  border-radius: 2px;
-  font-size: 2.8rem;
-  padding: 10px 10px;
-  transition: ease 500ms;
-}
-
-#refugies {
-  color: white;
-  background: linear-gradient(0.25turn, #142F5F, #27509B);
-  background-size: 40%;
-  background-repeat: no-repeat;
-  border-radius: 2px;
-  font-size: 2.8rem;
-  padding: 10px 10px;
-  transition: ease 500ms;
-}
-
-#multicult {
-  color: white;
-  background: linear-gradient(0.25turn, #142F5F, #27509B);
-  background-size: 70%;
-  background-repeat: no-repeat;
-  border-radius: 2px;
-  font-size: 3rem;
-  padding: 10px 10px;
-  transition: ease 500ms;
-  transform-origin: 0 0;
-}
-
 
 .card.card-body p {
   padding: 40px 40px;
   text-justify: auto;
 }
 
-/*format tablettes*/
+/*format tablettes------------------------------------------------*/
 @media screen and (max-width: 991.98px) {
   .bandbox {
     height: 160px;
   }
 
   .band-title {
-    transform: scale(1);
+    transform: scale(0.8);
     top: 42px;
   }
 
@@ -247,15 +185,9 @@
     height: auto;
   }
 
-  .DescLeft h2 {
-    font-size: 2.2rem;
-    padding: 8px 20px 12px 14px;
-  }
-
   .DescLeft {
     display: flex;
     flex-direction: column;
-    padding-right: 0px;
   }
 
   .DescLeft p {
@@ -266,24 +198,9 @@
   .ifMainFbox {
     flex-wrap: wrap;
   }
+}
 
-  #multicult {
-    background-size: 100%;
-    font-size: 2.4rem;
-  }
-
-    #mig-title_blue {
-    background-size: 100%;
-    font-size: 2.4rem;
-    }
-
-    #union-title_blue {
-      background-size: 50%;
-      font-size: 2.8rem;
-    }
-  }
-
-/* Format yéléphone */
+/* Format téléphone ------------------------------------------------*/
 @media screen and (max-width: 767.98px) {
   .bandbox {
     height: 110px;
@@ -307,11 +224,6 @@
     height: auto;
   }
 
-  .DescLeft h2 {
-    font-size: 2.3rem;
-    padding: 10px 0px 10px 10px;
-  }
-
   .DescLeft p {
     font-size: 15px;
   }
@@ -330,25 +242,5 @@
   padding: 10px 10px;
   text-justify: auto;
   text-align: justify;
-}
-
-  #euro-title_blue {
-    background-size: 30%;
-    font-size: 1.8rem;
-  }
-
-  #multicult {
-  background-size: 100%;
-    font-size: 1.6rem;
-  }
-
-  #mig-title_blue {
-  background-size: 100%;
-    font-size: 1.6rem;
-  }
-
-  #union-title_blue {
-    background-size: 70%;
-    font-size: 1.8rem;
   }
 }

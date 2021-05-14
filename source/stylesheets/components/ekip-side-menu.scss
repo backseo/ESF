@@ -1,0 +1,68 @@
+/*slide menu*/
+.side-menu {
+  position: fixed;
+  top: 126px;
+  left: -250px; /* -246 */
+  z-index: 10;
+  width: 280px;
+  height: 300px;
+  background: #27509B;
+  border-radius: 0px 4px 4px 0px;
+  border-top: 1px black solid;
+  border-right: 1px black solid;
+  border-bottom: 1px black solid;
+  cursor: pointer;
+  transition: all ease-in-out 300ms;
+}
+
+/* menu translateX */
+.side-menu:hover {
+  left: 0px;
+}
+
+.side-menu ul {
+  position: absolute;
+  min-width: 220px;
+  left: 4px;
+  bottom: 0px;
+  background: #eee;
+  padding: 4px 4px 4px 8px; ;
+  margin-left: 8px;
+  list-style: none;
+  border-radius: 4px;
+  box-shadow: 1px 1px 1px 1px;
+}
+
+.side-menu a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: black;
+  font-weight: lighter;
+}
+
+.side-menu a:hover {
+  color: blue;
+}
+
+.side-menu h4 {
+  position: absolute;
+  top: 8px;
+  left: 80px;
+  font-size: 1.5rem;
+  font-family: Roboto;
+  font-weight: bolder;
+  letter-spacing: 0.13rem;
+  color: white;
+}
+
+.side-menu li:before {
+  position: relative;
+  font-size: 1.2rem;
+}
+
+#gif-menu {
+  position: absolute;
+  top: 110px;
+  right: 6px;
+}
+
