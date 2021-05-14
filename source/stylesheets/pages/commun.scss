@@ -32,13 +32,11 @@
   background: white;
   border-radius: 4px;
   margin-bottom: 10px;
-  border: 2px olive solid;
 }
 
 .DescLeft {
   position: relative;
   width: 100%;
-  border: 2px purple solid;
   margin: 4px;
 }
 
@@ -49,7 +47,6 @@
   margin: 4px 4px;
   border-radius: 2px;
   font-size: 14px;
-  border: 1px black solid;
 }
 
 .textjustifybox {
@@ -57,14 +54,12 @@
   margin: 4px 4px;
   border-radius: 2px;
   font-size: 14px;
-  border: 1px black dotted;
 }
 
 
 .DescRight {
   position: relative;
   width: 100%;
-  border: 2px red solid;
   margin: 4px;
 }
 
@@ -84,7 +79,6 @@
   align-items: center;
   justify-content: space-around;
   flex-wrap: nowrap;
-  border: 2px teal solid;
 }
 
 .flagflexbox {
@@ -162,7 +156,6 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  border: 2px blue solid;
 }
 
 .card.card-body p {
