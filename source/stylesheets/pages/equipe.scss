@@ -21,6 +21,11 @@
   transition: ease 500ms;
 }
 
+#logo-esf {
+  width: 100%;
+  transform: scale(1);
+}
+
 .equip-main-frame {
   position: relative;
   width: 100%;
@@ -88,6 +93,11 @@
   .portraits {
     padding-right: 20px;
   }
+
+  #logo-esf {
+    transform: scale(0.8);
+  }
+
 }
 
 @media screen and (max-width: 767.98px) {
@@ -106,4 +116,9 @@
   .portraits {
     transform: scale(1);
   }
+
+  #logo-esf {
+    transform: scale(0.6);
+  }
+
 }

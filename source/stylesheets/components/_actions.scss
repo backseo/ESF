@@ -7,7 +7,6 @@
   background: linear-gradient(0.25turn, #142F5F, #27509B);
   width: 100%;
   color: white;
-  font-size: 4rem;
   transition: ease-in-out 300ms;
 }
 
@@ -32,7 +31,6 @@
   display: block;
   width: 100%;
   height: auto;
-  transition: .5s ease;
 }
 
 .esf-imgbox {
@@ -77,6 +75,9 @@
     flex: 33%;
     max-width: 33%;
   }
+  .actionsbar {
+    font-size: 2rem;
+  }
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
@@ -84,5 +85,9 @@
   .esf-column {
     flex: 100%;
     max-width: 100%;
+  }
+  .actionsbar {
+   font-size: 2.2rem;
+   line-height: 4rem;
   }
 }
