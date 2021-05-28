@@ -21,6 +21,7 @@
   transition: ease 500ms;
 }
 
+/*logo-esf sur multiple pages*/
 #logo-esf {
   width: 100%;
   transform: scale(1);
@@ -97,7 +98,6 @@
   #logo-esf {
     transform: scale(0.8);
   }
-
 }
 
 @media screen and (max-width: 767.98px) {
@@ -118,7 +118,6 @@
   }
 
   #logo-esf {
-    transform: scale(0.6);
+    transform: scale(0.5);
   }
-
 }

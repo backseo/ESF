@@ -31,6 +31,7 @@
   display: block;
   width: 100%;
   height: auto;
+  transition: ease-in-out 300ms;
 }
 
 .esf-imgbox {
@@ -38,6 +39,7 @@
   cursor: pointer;
   overflow: hidden;
   transform-orign: center;
+  transition: ease-in-out 300ms;
 }
 
 .middle {
@@ -52,7 +54,8 @@
 
 .esf-imgbox:hover .esf-img {
   opacity: 0.4;
-  transform: scale(1.2);
+  transform: scale(1.1);
+  transition: all ease-in-out 800ms;
 }
 
 .esf-imgbox:hover .middle {
