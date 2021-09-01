@@ -1,4 +1,15 @@
 /* Main navbar */
+
+.nav-offset-top {
+  padding-top: 110px;
+}
+
+.nav {
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+
 .navbar-name {
   position: relative;
   top: 0;
@@ -8,17 +19,16 @@
   justify-content: space-evenly;
   z-index: 100;
   background: linear-gradient(0.25turn, #142F5F, #27509B);
-  height: 50px;
+  height: 130px;
   width: 100%;
   box-shadow: 0px 1px 2px 3px;
   transition: all ease-in-out 700ms;
 }
 
 /* Logo */
-.navbar-brand-name a img {
+#logo {
   margin-left: 4px;
   transition: all ease-in-out 700ms;
-  height: 46px;
   border-radius: 1px;
 }
 
